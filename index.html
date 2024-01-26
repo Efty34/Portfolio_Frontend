@@ -19,7 +19,8 @@
     <link rel="stylesheet" href="desktop_nav.css" />
     <link rel="stylesheet" href="about.css" />
     <link rel="stylesheet" href="project.css" />
-
+    <link rel="stylesheet" href="photography.css" />
+    <link rel="stylesheet" href="contact.css" />
   </head>
   <body>
     <nav id="desktop-nav">
@@ -534,10 +535,103 @@
         src="./asset/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#contact'"
+        onclick="location.href='./#photography'"
       />
     </section>
-  
+
+    <section id="photography">
+      <div class="photo-bottom">
+        <p class="section__text__p1">Explore with me</p>
+        <h1 class="title">Photography</h1>
+      </div>
+      <!-- carousel -->
+    <div class="carousel">
+      <!-- list item -->
+      <div class="list">
+          <div class="item">
+              <img src="./asset/img1.jpg">
+          </div>
+          <div class="item">
+              <img src="./asset/img2.jpg">
+          </div>
+          <div class="item">
+              <img src="./asset/img3.jpg">
+          </div>
+          <div class="item">
+              <img src="./asset/img4.jpg">
+          </div>
+      </div>
+      <!-- list thumnail -->
+      <div class="thumbnail">
+          <div class="item">
+              <img src="./asset/img1.jpg">
+          </div>
+          <div class="item">
+              <img src="./asset/img2.jpg">             
+          </div>
+          <div class="item">
+              <img src="./asset/img3.jpg">             
+          </div>
+          <div class="item">
+              <img src="./asset/img4.jpg">         
+          </div>
+      </div>
+      <!-- next prev -->
+
+      <div class="arrows">
+          <button id="prev"><</button>
+          <button id="next">></button>
+      </div>
+      <!-- time running -->
+      <div class="time"></div>
+  </div>
+  <img 
+        src="./asset/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./asset/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:efty17.hasan@gmail.com">efty17.hasan@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./asset/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; littleGiant_34. All Rights Reserved.</p>
+    </footer>
+    
     <script src="script.js"></script>
+    <script src="script2.js"></script>
   </body>
 </html>

@@ -135,15 +135,15 @@
   
   .button {
     --color: #427973;
-    padding: 0.8em 1.2em;
+    padding: 0.8rem 1.4rem;
     background-color: transparent;
-    border-radius: .3em;
+    border-radius: .3rem;
     position: relative;
     overflow: hidden;
     cursor: pointer;
     transition: .5s;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 15px;
     border: 1px solid;
     font-family: inherit;
     text-transform: uppercase;
@@ -165,13 +165,13 @@
    }
    
    .button::before {
-    top: -1em;
-    left: -1em;
+    top: -1rem;
+    left: -1rem;
    }
    
    .button::after {
-    left: calc(100% + 1em);
-    top: calc(100% + 1em);
+    left: calc(100% + 1rem);
+    top: calc(100% + 1rem);
    }
    
    .button:hover::before, .button:hover::after {

@@ -46,6 +46,11 @@
     .about-containers {
       margin-top: 0;
     }
+    .about-details-container .about-containers{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
   
   @media screen and (max-width: 600px) {

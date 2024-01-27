@@ -24,7 +24,7 @@
       margin-top: 2rem;
     }
     #about{
-        margin-top: 8rem;
+        margin-top: 12rem;
     }
     #profile,
     .section-container {
@@ -43,7 +43,7 @@
     .section__pic-container {
       width: 50px;
       height: 50px;
-      margin: 0 0 15rem 0;
+      margin: 0 0 20rem 0;
     }
     .about-containers {
       margin-top: 0;

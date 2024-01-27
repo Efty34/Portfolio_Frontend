@@ -6,7 +6,7 @@
 /* carousel */
 .carousel{
     border: 0.1rem solid black;
-    border-radius: 3.5rem;
+    border-radius: 2rem;
     height: 90vh;
     margin-top: -50px;
     width: 78vw;
@@ -46,12 +46,13 @@
 }
 .carousel .list .item .title,
 .carousel .list .item .topic{
-    font-size: 5em;
-    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    font-weight: 500;
     line-height: 1.3em;
 }
-.carousel .list .item .topic{
-    color: #0000ff;
+.carousel .list .item .des{
+    color: #ffffff;
 }
 .carousel .list .item .buttons{
     display: grid;
@@ -76,15 +77,15 @@
 .thumbnail{
     position: absolute;
     bottom: 50px;
-    left: 50%;
+    left: 65%;
     width: max-content;
     z-index: 100;
     display: flex;
     gap: 20px;
 }
 .thumbnail .item{
-    width: 150px;
-    height: 220px;
+    width: 100px;
+    height: 170px;
     flex-shrink: 0;
     position: relative;
 }

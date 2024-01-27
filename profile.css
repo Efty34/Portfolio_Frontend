@@ -1,4 +1,4 @@
-  #profile{
+#profile{
     display: flex;
     justify-content: center;
     gap: 5rem;
@@ -187,4 +187,3 @@
    .button:active {
     filter: brightness(.8);
    }
-  

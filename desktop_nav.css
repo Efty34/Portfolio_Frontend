@@ -12,7 +12,7 @@ nav {
 }
 
 .nav-links {
-  gap: 1rem;
+  gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
 }
@@ -24,10 +24,10 @@ a {
 }
 
 a:hover {
-  color: #092635;
+  color: #35155D;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: #9EC8B9;
+  text-decoration-color: #4ba1a3;
 }
 
 .logo {

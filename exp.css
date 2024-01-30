@@ -39,8 +39,8 @@
   
   /*-----------*/
   .card-container {
-    width: 25rem;
-    height: 30rem;
+    width: 20rem;
+    height: 28rem;
     position: relative;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -62,7 +62,7 @@
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
   }
   .card .front-content p {
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 700;
     opacity: 1;
     /* background: linear-gradient(-45deg, #007784 0%, #caf8ed 100% ); */
@@ -81,8 +81,8 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* align-items:center; */
+    justify-content:center;
     text-align: center;
     gap: 10px;
     background: linear-gradient(90deg, #5C8984 0%, #C2DEDC 100% );
@@ -96,6 +96,7 @@
   }
   
   .card .content .heading {
+    color: white;
     font-size: 32px;
     font-weight: 700;
   }

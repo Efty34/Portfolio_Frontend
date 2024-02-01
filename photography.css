@@ -229,7 +229,7 @@
   
   .carousel.next .time,
   .carousel.prev .time{
-    animation: runningTime 1.5s linear 1 forwards;
+    animation: runningTime 0.1s linear 1 forwards;
   }
   @keyframes runningTime{
     from{ width: 100%}

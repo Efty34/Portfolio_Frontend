@@ -3,6 +3,11 @@
  #about {
     position: relative;
   }
+  .section-container{
+    padding-left: 2rem;
+    display: flex;
+    justify-content: center;
+  }
   .section__text__p1{
     text-align: center;
   }

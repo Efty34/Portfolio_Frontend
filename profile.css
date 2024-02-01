@@ -1,8 +1,13 @@
 #profile{
     display: flex;
-    justify-content: center;
-    gap: 5rem;
+    justify-content:center;
     height: 80vh;
+    margin-left: 0;
+    margin-right: 0;
+    background-image: url(./asset/bg2.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
   }
   /* .dp{
     border-radius: 50%;

@@ -1,7 +1,9 @@
 @media screen and (max-width: 1400px) {
     #profile {
       height: 83vh;
-      margin-bottom: 10rem;
+      /* margin-bottom: 2rem; */
+
+       padding-top: 8rem; 
     }
     .about-containers {
       flex-wrap:nowrap;
@@ -24,7 +26,7 @@
       margin-top: 2rem;
     }
     #about{
-        margin-top: 12rem;
+        margin-top: 2rem;
     }
     #profile,
     .section-container {

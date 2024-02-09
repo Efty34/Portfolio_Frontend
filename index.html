@@ -18,6 +18,8 @@
   <link rel="stylesheet" href="photography.css">
   <link rel="stylesheet" href="contact_footer.css">
   <link rel="stylesheet" href="mediaqueries.css">
+  <link rel="stylesheet" href="timeline.css">
+
 </head>
 
 <body>
@@ -26,6 +28,7 @@
     <div>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
+        <li><a href="#timelineid">Timeline</a></li>
         <li><a href="#experience">Expertise</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#photography"><img src="./asset/cam.png" alt="camera" width="40px"></a></li>
@@ -44,6 +47,7 @@
       </div>
       <div class="menu-links">
         <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#timelineid" onclick="toggleMenu()">Timeline</a></li>
         <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
         <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
         <li><a href="#photography" onclick="toggleMenu()">photography</a></li>
@@ -89,7 +93,7 @@
         <img src="./asset/mine.webp" alt="Profile picture" class="about-pic" />
       </div>
       <div class="about-details-container">
-        <div class="about-containers">
+        <!-- <div class="about-containers">
           <div class="unique-card">
             <div class="background-overlay"></div>
             <div class="card-content">
@@ -115,19 +119,61 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="text-container">
           <p>
             A dynamic individual, passionate about continuous learning and
             personal growth. With a creative mindset and strong communication
-            skills, you thrive in diverse environments. Your adaptability and
-            curiosity drive you to explore new ideas, connecting with others
+            skills, thrive in diverse environments. My adaptability and
+            curiosity drive me to explore new ideas, connecting with others
             through empathy and understanding. A catalyst for positive change,
-            you embrace challenges with enthusiasm.
+            i embrace challenges with enthusiasm.
           </p>
         </div>
       </div>
     </div>
+    <img src="./asset/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#timelineid'" />
+  </section>
+
+  <section id="timelineid">
+    <p class="section__text__p1">Discover additional insights</p>
+    <h1 class="title">Timeline</h1>
+    <div class="timeline">
+
+      <div class="timeline-container left-container">
+        <img src="./asset/kuet2.png" alt="">       
+        <div class="timeline-text-box">
+          <a href="https://www.kuet.ac.bd/" target="_blank"><h2>KUET</h2></a>         
+          <small>2020-</small>
+          <p>I am progressing towards my undergraduation degree, slated to graduate in 2025, with a specialization in CSE.</p>
+          <span class="left-container-arrow"></span>
+        </div>
+      </div>
+
+      <div class="timeline-container right-container">
+         
+        <img src="./asset/drmc.png" alt="">
+        <div class="timeline-text-box">
+          <a href="https://drmc.edu.bd/"><h2>DRMC</h2></a>
+          <small>2018-2020</small>
+          <p>College graduate with a diverse academic background.</p>
+          <span class="right-container-arrow"></span>
+        </div>
+      </div>
+
+      <div class="timeline-container left-container">
+        <img src="./asset/drmc.png" alt="">
+        <div class="timeline-text-box">
+          <a href="https://drmc.edu.bd/"><h2>DRMC</h2></a>
+          <small>2010-2018</small>
+          <p>I completed my primary and secondary education.</p>
+          <span class="left-container-arrow"></span>
+        </div>
+      </div>
+
+    </div>
+    
+
     <img src="./asset/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
   </section>
 
@@ -284,20 +330,21 @@
             </div>
             <div class="flip-card-back">
               <p class="title">
-                <div class="details-container color-container">
-                  <div class="article-container">
-                    <img src="./asset/apl.jpg" alt="Project 2" class="project-img" />
-                  </div>
-                  <h2 class="experience-sub-title project-title">Title: InFoo</h2>
-                  <div class="btn-container">
-                    <button class="project-btn" onclick="location.href='https://github.com/Efty34/InFoo_AdvanceProgramming'">
-                      Github
-                    </button>
-                    <button class="project-btn" onclick="window.open('./asset/InfooPreview.mkv')">
-                      Live Demo
-                    </button>
-                  </div>
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <img src="./asset/apl.jpg" alt="Project 2" class="project-img" />
                 </div>
+                <h2 class="experience-sub-title project-title">Title: InFoo</h2>
+                <div class="btn-container">
+                  <button class="project-btn"
+                    onclick="location.href='https://github.com/Efty34/InFoo_AdvanceProgramming'">
+                    Github
+                  </button>
+                  <button class="project-btn" onclick="window.open('./asset/InfooPreview.mkv')">
+                    Live Demo
+                  </button>
+                </div>
+              </div>
               </p>
             </div>
           </div>
@@ -310,27 +357,27 @@
             </div>
             <div class="flip-card-back">
               <p class="title">
-                <div class="details-container color-container">
-                  <div class="article-container">
-                    <img src="./asset/game.svg" alt="Project 3" class="project-img" />
-                  </div>
-                  <h2 class="experience-sub-title project-title">Title: Guess/Die</h2>
-                  <div class="btn-container">
-                    <button class="project-btn" onclick="location.href='https://github.com/Efty34/Little-Game-Project'">
-                      Github
-                    </button>
-                    <button class="project-btn" onclick="location.href='https://efty34.github.io/Little-Game-Project/'">
-                      Live Demo
-                    </button>
-                  </div>
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <img src="./asset/game.svg" alt="Project 3" class="project-img" />
                 </div>
+                <h2 class="experience-sub-title project-title">Title: Guess/Die</h2>
+                <div class="btn-container">
+                  <button class="project-btn" onclick="location.href='https://github.com/Efty34/Little-Game-Project'">
+                    Github
+                  </button>
+                  <button class="project-btn" onclick="location.href='https://efty34.github.io/Little-Game-Project/'">
+                    Live Demo
+                  </button>
+                </div>
+              </div>
               </p>
             </div>
           </div>
         </div>
 
-        
-        
+
+
       </div>
     </div>
     <img src="./asset/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#photography'" />
@@ -392,8 +439,9 @@
       <!-- next prev -->
 
       <div class="arrows">
-        <button id="prev"><</button>
-        <button id="next">></button>
+        <button id="prev">
+          < </button>
+            <button id="next">></button>
       </div>
       <!-- time running -->
       <div class="time"></div>
@@ -422,6 +470,7 @@
       <div class="nav-links-container">
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
+          <li><a href="#timelineid">Timeline</a></li>
           <li><a href="#experience">Expertise</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#photography">Photography</a></li>

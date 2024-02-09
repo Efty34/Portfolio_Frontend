@@ -62,7 +62,7 @@
      
       height: 40vh;
       margin-top: 20rem;
-      margin-bottom: 10rem;
+      margin-bottom: 23rem;
     }
     footer{
       height: 40vh;
@@ -74,6 +74,7 @@
       flex-direction: column;
       
     }
+    
     .inner-div-contact{
       
       display: flex;

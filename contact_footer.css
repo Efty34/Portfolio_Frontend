@@ -1,11 +1,12 @@
 #contact {
+    margin-top: 9rem;;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    /* height: 70vh; */
   }
   
-  .contact-info-upper-container {
+  /* .contact-info-upper-container{
     display: flex;
     justify-content: center;
     border-radius: 2rem;
@@ -14,26 +15,38 @@
     background: (250, 250, 250);
     margin: 2rem auto;
     padding: 0.5rem;
-  }
+  } */
   
-  .contact-info-container {
+  /* .contact-info-container {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
     margin: 1rem;
-  }
+  } */
   
-  .contact-info-container p {
+  /* .contact-info-container p {
     font-size: larger;
-  }
+  } */
   
-  .contact-icon {
+  /* .contact-icon {
     cursor: default;
-  }
+  } */
   
-  .email-icon {
+  /* .email-icon {
     height: 2.5rem;
+  } */
+  .side-contact{
+    border: 2px solid #396460;
+    padding: 1.4rem 85px;
+    border-radius: 10px;
+  }
+  .side-contact-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content:center;
+    align-items: center;
   }
   
   footer {
@@ -43,4 +56,124 @@
   
   footer p {
     text-align: center;
+  }
+
+  /* ...................... */
+  .inputBox {
+    position: relative;
+  }
+  
+  .inputBox input {
+    padding: 15px 80px;
+    outline: none;
+    background: transparent;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid#396460;
+    font-size: 1em;
+  }
+  
+  .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 15px 20px;
+    pointer-events: none;
+    font-size: 1em;
+    transition: 0.4s cubic-bezier(0.05, 0.81, 0, 0.93);
+    color: #396460;
+    letter-spacing: 0.1em;
+  }
+  
+  .inputBox input:focus ~ span,
+  .inputBox input:valid ~ span {
+    font-size: 0.7em;
+    transform: translateX(14px) translateY(-7.5px);
+    padding: 0 5px;
+    border-radius: 2px;
+    background: #ffffff;
+    letter-spacing: 0em;
+    border: 1px solid #396460;
+  }
+  
+
+  .inner-div-contact{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: center; */
+  }
+  
+
+  button {
+    font-family: inherit;
+    font-size: 14px;
+    background: #396460;
+    color: white;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+  
+  button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  button:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+  }
+  
+  button:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+  }
+  
+  button:hover span {
+    transform: translateX(5em);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  @keyframes fly-1 {
+    from {
+      transform: translateY(0.1em);
+    }
+  
+    to {
+      transform: translateY(-0.1em);
+    }
+  }
+  
+  .my-info{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    border: 2px solid #396460;
+    padding: 1.4rem 85px;
+    border-radius: 10px;
+  }
+  .my-info h4{
+    font-size: 15px;
+    color: #808080;
+    font-weight: 200;
+  }
+  .icon-con{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
   }

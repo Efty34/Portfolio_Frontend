@@ -58,9 +58,30 @@
   }
   
    @media screen and (max-width: 600px) {
-    #contact,
-    footer {
+    #contact{
+     
       height: 40vh;
+      margin-top: 20rem;
+      margin-bottom: 10rem;
+    }
+    footer{
+      height: 40vh;
+      margin-top: 20rem;
+      margin-bottom: 3rem;
+    }
+    #contact{
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .inner-div-contact{
+      
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .inputBox input{
+      padding: 15px 60px;
     }
     #profile {
       height: 83vh;

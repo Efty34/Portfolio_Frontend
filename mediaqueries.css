@@ -63,12 +63,11 @@
       flex-direction: column;
       height: 40vh;
       margin-top: 27rem;
-      margin-bottom: 27rem;
+      margin-bottom: 2rem;
     }
     footer{
       height: 40vh;
       margin-top: 20rem;
-      margin-bottom: 3rem;
     }
     .inner-div-contact{
       
@@ -82,6 +81,11 @@
     #profile {
       height: 83vh;
       margin-bottom: 0;
+    }
+    .about-containers{
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     article {
       font-size: 1rem;

@@ -59,20 +59,16 @@
   
    @media screen and (max-width: 600px) {
     #contact{
-     
+      display: flex;
+      flex-direction: column;
       height: 40vh;
-      margin-top: 20rem;
+      margin-top: 23rem;
       margin-bottom: 23rem;
     }
     footer{
       height: 40vh;
       margin-top: 20rem;
       margin-bottom: 3rem;
-    }
-    #contact{
-      display: flex;
-      flex-direction: column;
-      
     }
     .inner-div-contact{
       

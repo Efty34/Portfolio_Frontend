@@ -150,3 +150,29 @@
     transform: translateY(-0.1em);
   }
 }
+
+
+.personal-con-info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-self: center;
+  gap: 2rem;
+}
+.con-info-icon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.con-info{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.con-info-icon img{
+  display: flex;
+  flex-direction: row;
+  width: 2rem;
+}

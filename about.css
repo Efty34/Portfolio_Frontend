@@ -34,6 +34,8 @@
 }
 
 .details-container {
+  width: 22rem;
+  height: 28rem;
   padding: 2rem;
   flex: 1;
   background: white;

@@ -23,7 +23,8 @@
     }
      #experience,
     .experience-details-container {
-      margin-top: 2rem;
+      margin-top: 1rem;
+      margin-bottom: 0;
     }
     #about{
         margin-top: 2rem;
@@ -130,5 +131,11 @@
     }
     .text-container {
       text-align: justify;
+    }
+    .cards{
+      display: flex;
+      flex-direction: column;
+      gap: 23rem;
+      margin-bottom: 8rem;
     }
   } 

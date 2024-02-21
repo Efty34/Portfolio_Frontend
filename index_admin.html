@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="./css/admin.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo"></div>
+        <ul class="menu">
+            <li class="active">
+                <a href="#">
+                    <i class='bx bxs-dashboard'></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#message">
+                    <i class='bx bxs-message-dots'></i>
+                    <span>Message</span>
+                </a>
+            </li>
+            <li>
+                <a href="#education">
+                    <i class='bx bxs-graduation'></i>
+                    <span>Education</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-briefcase-alt-2'></i>
+                    <span>Project</span>
+                </a>
+            </li>
+            <li class="logout">
+                <a href="#">
+                    <i class='bx bx-log-out'></i>
+                    <span>Logout</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="main--content">
+        <div class="header--wraper">
+            <div class="head-title">
+                <span>Primary</span>
+                <h2>Dashboard</h2>
+            </div>
+            <div class="user--info">
+                <div class="search--box">
+                    <i class='bx bx-search'></i>
+                    <input type="text" placeholder="Search">
+                </div>
+                <img src="./asset/profile-user.png" alt="">
+            </div>
+        </div>
+
+        <section id="message">
+            <div class="main--title--div">
+                <h3 class="main--title">Message</h3>
+            </div>          
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>SN</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Subject</th>
+                            <th>Message</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>John Doe</td>
+                            <td>john@example.com</td>
+                            <td>Query</td>
+                            <td>Hello, I have a question...</td>
+                        </tr>
+                        
+                        
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="main--title--div">
+                <h3 class="main--title">Education</h3>
+            </div>          
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Subject</th>
+                            <th>Message</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>john@example.com</td>
+                            <td>Query</td>
+                            <td>Hello, I have a question...</td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>john@example.com</td>
+                            <td>Query</td>
+                            <td>Hello, I have a question...</td>
+                        </tr>                      
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+    </div>
+
+</body>
+
+</html>
